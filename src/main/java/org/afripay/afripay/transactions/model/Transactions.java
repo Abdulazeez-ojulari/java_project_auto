@@ -31,8 +31,8 @@ public class Transactions {
     @Column(name = "amount")
     private BigDecimal amount;
     
-    @Column(name = "statu")
-    private String statu;
+    @Column(name = "status")
+    private String status;
     
     @Column(name = "created_date")
     @Temporal(TemporalType.TIMESTAMP)
