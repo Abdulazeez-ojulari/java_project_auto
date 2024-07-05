@@ -54,11 +54,11 @@ public class ExportUtil {
     }
 
 
-    private void deleteAllFilesInFolders(String... folderNames) {
-        for (String folderName : folderNames) {
-            FileManagementUtil fileManagementUtil = new FileManagementUtil(folderName);
-            fileManagementUtil.deleteAllFileInFolder();
-        }
-    }
+    // private void deleteAllFilesInFolders(String... folderNames) {
+    //     for (String folderName : folderNames) {
+    //         FileManagementUtil fileManagementUtil = new FileManagementUtil(folderName);
+    //         fileManagementUtil.deleteAllFileInFolder();
+    //     }
+    // }
 
 }
