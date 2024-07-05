@@ -31,7 +31,6 @@ public class Transactions {
     @Column(name = "amount")
     private BigDecimal amount;
     
-    
     @Column(name = "status")
     private String status;
     
