@@ -29,7 +29,7 @@ public class Transactions {
     private String pan;
     
     @Column(name = "amount")
-    private BigDecimal amount
+    private BigDecimal amount;
     
     @Column(name = "status")
     private String status;
