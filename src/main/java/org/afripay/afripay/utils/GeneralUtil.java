@@ -196,7 +196,7 @@ public class GeneralUtil {
 //    }
 
     public static void main(String[] args) {
-        String reference = "test_20191123132233";
+        // String reference = "test_20191123132233";
         log.info(String.valueOf(LocalDateTime.parse("2022-12-13T00:00:00")));
     }
 
