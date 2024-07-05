@@ -32,7 +32,7 @@ public class Transactions {
     private BigDecimal amount;
     
     @Column(name = "status")
-    private String statu
+    private String status;
     
     @Column(name = "created_date")
     @Temporal(TemporalType.TIMESTAMP)
