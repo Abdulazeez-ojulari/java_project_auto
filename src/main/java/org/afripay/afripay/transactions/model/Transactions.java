@@ -34,7 +34,6 @@ public class Transactions {
     @Column(name = "status")
     private String status;
     
-    
     @Column(name = "created_date")
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss.SSS")
