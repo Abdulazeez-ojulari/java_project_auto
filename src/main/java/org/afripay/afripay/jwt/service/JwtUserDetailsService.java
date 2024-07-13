@@ -1,6 +1,5 @@
 package org.afripay.afripay.jwt.service;
 
-import lombok.extern.slf4j.Slf4j;
 import org.afripay.afripay.users.dto.UsersDTO;
 import org.afripay.afripay.users.models.Users;
 import org.afripay.afripay.users.repo.UsersRepository;
@@ -15,7 +14,6 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-@Slf4j
 @Service
 public class JwtUserDetailsService implements UserDetailsService {
 
