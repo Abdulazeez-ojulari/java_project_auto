@@ -40,7 +40,7 @@ public class DashboardController {
         return generalService.prepareSuccessResponse(response);
     }
     
-    @GetMapping(value = "{staus}")
+    @GetMapping(value = "{status}")
     public Response getNumbersOfTransactionsByStatus(@PathVariable String status) {
         var response =dashboardService.getDashboardNumbersOfTransactionsByStatus(status);
         
